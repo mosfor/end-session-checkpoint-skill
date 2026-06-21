@@ -33,6 +33,12 @@ Install for your default agent host and current project:
 gh skill install mosfor/end-session-checkpoint-skill end-session-checkpoint
 ```
 
+Pin the current release:
+
+```bash
+gh skill install mosfor/end-session-checkpoint-skill end-session-checkpoint --pin v0.1.0
+```
+
 Install for a specific agent at user scope:
 
 ```bash
@@ -69,6 +75,8 @@ mux, neovate, openclaw, opencode, openhands, pi, pochi, qoder,
 qwen-code, replit, roo, trae, trae-cn, universal, warp, windsurf,
 zencoder
 ```
+
+This is the broadest install path. GitHub CLI owns the per-agent destination mapping, so users do not need to memorize every agent's skill directory.
 
 Docs:
 
