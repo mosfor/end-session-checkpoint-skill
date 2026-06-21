@@ -36,7 +36,7 @@ gh skill install mosfor/end-session-checkpoint-skill end-session-checkpoint
 Pin the current release:
 
 ```bash
-gh skill install mosfor/end-session-checkpoint-skill end-session-checkpoint --pin v0.1.0
+gh skill install mosfor/end-session-checkpoint-skill end-session-checkpoint --pin v0.1.1
 ```
 
 Install for a specific agent at user scope:
